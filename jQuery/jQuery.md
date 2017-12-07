@@ -1,11 +1,11 @@
-jQueryÑ¡ÔñÆ÷£º
-	$("div[id]") Ñ¡ÔñËùÓĞº¬ÓĞidÊôĞÔµÄdivÔªËØ 
-	$("input[name='einsdan']") Ñ¡ÔñËùÓĞµÄnameÊôĞÔµÈÓÚ'einsdan'µÄinputÔªËØ 
+jQueryé€‰æ‹©å™¨ï¼š
+	$("div[id]") é€‰æ‹©æ‰€æœ‰å«æœ‰idå±æ€§çš„divå…ƒç´  
+	$("input[name='einsdan']") é€‰æ‹©æ‰€æœ‰çš„nameå±æ€§ç­‰äº'einsdan'çš„inputå…ƒç´  
 
-	$("input[name!='einsdan']") Ñ¡ÔñËùÓĞµÄnameÊôĞÔ²»µÈÓÚ'einsdan'µÄinputÔªËØ 
+	$("input[name!='einsdan']") é€‰æ‹©æ‰€æœ‰çš„nameå±æ€§ä¸ç­‰äº'einsdan'çš„inputå…ƒç´  
 
-	$("input[name^='einsdan']") Ñ¡ÔñËùÓĞµÄnameÊôĞÔÒÔ'einsdan'¿ªÍ·µÄinputÔªËØ 
-	$("input[name$='einsdan']") Ñ¡ÔñËùÓĞµÄnameÊôĞÔÒÔ'einsdan'½áÎ²µÄinputÔªËØ 
-	$("input[name*='einsdan']") Ñ¡ÔñËùÓĞµÄnameÊôĞÔ°üº¬'einsdan'µÄinputÔªËØ 
+	$("input[name^='einsdan']") é€‰æ‹©æ‰€æœ‰çš„nameå±æ€§ä»¥'einsdan'å¼€å¤´çš„inputå…ƒç´  
+	$("input[name$='einsdan']") é€‰æ‹©æ‰€æœ‰çš„nameå±æ€§ä»¥'einsdan'ç»“å°¾çš„inputå…ƒç´  
+	$("input[name*='einsdan']") é€‰æ‹©æ‰€æœ‰çš„nameå±æ€§åŒ…å«'einsdan'çš„inputå…ƒç´  
 
-	$("input[id][name$='einsdan']") ¿ÉÒÔÊ¹ÓÃ¶à¸öÊôĞÔ½øĞĞÁªºÏÑ¡Ôñ£¬¸ÃÑ¡ÔñÆ÷ÊÇµÃµ½ËùÓĞµÄº¬ÓĞidÊôĞÔ²¢ÇÒnameÊôĞÔÒÔeinsdan½áÎ²µÄÔªËØ 
+	$("input[id][name$='einsdan']") å¯ä»¥ä½¿ç”¨å¤šä¸ªå±æ€§è¿›è¡Œè”åˆé€‰æ‹©ï¼Œè¯¥é€‰æ‹©å™¨æ˜¯å¾—åˆ°æ‰€æœ‰çš„å«æœ‰idå±æ€§å¹¶ä¸”nameå±æ€§ä»¥einsdanç»“å°¾çš„å…ƒç´  
