@@ -1,0 +1,14 @@
+Ä¿Â¼£º1.±éÀúmap
+1£¬±éÀúmap
+<%
+    Map names = new HashMap();
+    names.put("one","LiYang");
+    names.put("two","WangHua");
+    request.setAttribute("names",names);
+    
+    String one = "one";
+    request.setAttribute("one",one);
+%>
+<c:forEach items="${names}" var="item">
+	<c:out value = "${item.key == one}"> </c:out>11<br>
+</c:forEach>
